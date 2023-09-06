@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>fORM USING DIVITION CONTAINER</title>
+    </head>
+    <body>
+        <fieldset style="background-image:url(img.jpg);">
+        <legend>Data Collection</legend>
+    <form action="https://www.w3schools.com/html/">
+            <div class="fname">
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname">
+            </div>
+            <div class="lname">
+                <label for="lname">Lsat Name:</label><br>
+                <input type="text" id="lname" name="lname">
+            </div>
+            <div class="dob">
+                <label for="dob">DOB:</label><br>
+                <input type="date" id="dob" name="dob">
+            </div>
+            <div class="mobile no">
+                <label for="mobile no">Mobile No:</label><br>
+                <input type="number" id="mobile no" name="mobile no" placeholder="+91">
+            </div>
+            <div class="email">
+                <label for="email">EMAIL:</label><br>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="password">
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password">
+            </div>
+            <div class="gender">
+                <label for="gender">Gender:</label>
+                <label for="male">Male:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="female">Female:</label>
+                <input type="radio" id="female" name="gender" value="female">
+            </div>
+            <div class="qualification">
+                <label for="qual">Qualification:</label>
+                <label for="ug">UG:</label>
+                <input type="checkbox" name="qual" id="ug" value="ug">
+                <label for="pg">PG:</label>
+                <input type="checkbox" name="qual" id="pg" value="pg">
+            </div>
+            <div class="address">
+                <label for="address">Address:</label><br>
+                <textarea name="address" id="address" cols="30" rows="10"></textarea><br>
+            </div>
+            <div class="color">
+                <label for="color">Color:</label>
+            <input type="color" name="color" id="color">
+        </div>
+            <input type="file" name="file" id="file" multiple><br>
+            <div class="url">
+                <label for="url">URL:</label>
+            <input type="url" name="url" id="url">
+        </div>
+        <div class="search">
+            <label for="search">Search:</label>
+            <input type="search" name="search" id="search">
+        </div>
+        <div class="select">
+            <label for="city">City</label>
+        <select name="city" id="city">
+            <optgroup label="maharashtra">
+                <option value="mumbai">Mumbai</option>
+                <option value="pune">Pune</option>
+            </optgroup>
+            <optgroup label="NCR">
+                <option value="delhi">Delhi</option>
+                <option value="jammu">Jammu</option>
+            </optgroup>
+            <optgroup label="west bengal">
+                <option value="kolkata">Kolkata</option>
+                <option value="jaipur"></option>
+            </optgroup>
+            <optgroup label="Karnataka">
+                <option value="mysore">Mysore</option>
+                <option value="bangalore">Bangalore</option>
+            </optgroup>
+        </select>
+        <input list="city">
+        <datalist id="city">
+                <option value="salem">salem</option>
+                <option value="omalur"></option>
+            </datalist>
+            <dl style="color: rgb(233, 224, 224);">
+                <dt>HTML
+                <dd>HTML is the standard markup language for documents designed</dd>
+            </dt>
+        </dl>
+        <output>
+            <h1>The Output Element</h1>
+            <form on input="x.value=parseInt(a.value)+parseInt(b.value)">
+                <input type="range" id="a" value=" ">
+                <input type="number" id="b" value=" ">
+                <output name="x" for="a b"></output>
+            </form>
+            <svg height="500px" width="500px" style="border:3px solid white;">
+                <circle cx="250px" cy="250px" r="50px" style="fill:rgb(181, 181, 30);stroke-width:3px;stroke:black"></circle>
+                <rect width="150px" height="200px"></rect>
+            </svg>
+        </output>
+            <input type="Submit" value="Submit">
+            <input type="Reset" value="Reset">
+        </form>
+    </fieldset>
+</body>
+</html>
